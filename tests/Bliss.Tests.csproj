@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http" />
+    <PackageReference Include="ZXing.Net" Version="0.16.10" />
+    <ProjectReference Include="..\vPilot.Bliss.csproj" />
+    <Reference Include="RossCarlson.Vatsim.Vpilot.Plugins">
+      <HintPath>$(LOCALAPPDATA)\vPilot\RossCarlson.Vatsim.Vpilot.Plugins.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

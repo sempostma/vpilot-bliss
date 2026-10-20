@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>vPilot.Bliss</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <VpilotPath Condition="'$(VpilotPath)' == ''">$(LOCALAPPDATA)\vPilot</VpilotPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="selcal.mp3" LogicalName="VpilotBliss.Selcal.mp3" />
+    <Reference Include="RossCarlson.Vatsim.Vpilot.Plugins">
+      <HintPath>$(VpilotPath)\RossCarlson.Vatsim.Vpilot.Plugins.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Runtime.Serialization" />
+    <PackageReference Include="NAudio.Wasapi" Version="2.2.1" />
+    <PackageReference Include="QRCoder" Version="1.6.0" />
+    <Compile Remove="tests\**" />
+  </ItemGroup>
+</Project>
+
