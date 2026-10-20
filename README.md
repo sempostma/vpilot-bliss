@@ -2,9 +2,7 @@
 
 **Mutes vPilot until SELCAL calls.**
 
-After installing vPilot-Bliss, you will see a new "Bliss" window in vPilot. When you are monitoring oceanic radio and you have confirmed your SELCAL code with ATC type: "sleep" and vPilot will be muted in Windows Audio Mixer. Any notification, private message, broadcast, ping and of course SELCAL alert, will instantly unmute vPilot again.
-
-Be aware that this mutes vPilot so you don't hear the constant static on the radio, but it does not allow you to go AFK. 
+After installing vPilot-Bliss, you will see a new "Bliss" window in vPilot. When you are monitoring oceanic radio and you have confirmed your SELCAL code with ATC: Type: "sleep", and vPilot will be muted in Windows Audio Mixer. Any notification, private message, broadcast, ping and of course SELCAL alert, will instantly unmute vPilot again. When you change frequency or try to transmit while in sleep mode, Bliss will also wake-up vPilot and show a message indicating that vPilot was previously in sleep mode and that you forgot to turn it off.
 
 On top of silencing vPilot oceanic static noise, Bliss sends notifications to your phone when you receive private messages, pings, notifications, etc. When you are in **uncontrolled** airspace, this allows you to go AFK while having your phone as a backup in case ATC goes online. Code of Conduct B3 (B) states only that you are not permitted to leave your connection unattended for extended period of time. I would interpret "an extended period of time" as not more than 10 minutes **for (previously) uncontrolled airspace**. I know that some controllers will wait up to 15/20 minutes when they go online on a new sector but it depends on the controller. Of course, once you see that a controller is online, or you see that you will be flying into controlled airspace, you are expected to respond immediately. 
 
