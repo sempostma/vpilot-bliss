@@ -12,7 +12,19 @@ On top of silencing vPilot oceanic static noise, Bliss sends notifications to yo
 
 ## Install
 
-Close vPilot, extract `vPilot-Bliss.zip` into `%LOCALAPPDATA%\vPilot\Plugins`, then restart vPilot. Keep the included `Bliss.lib` folder.
+**[⬇ Download the latest vPilot-Bliss.zip](https://github.com/sempostma/vpilot-bliss/releases/latest/download/vPilot-Bliss.zip)**
+
+1. Download `vPilot-Bliss.zip` from the [Releases page](https://github.com/sempostma/vpilot-bliss/releases/latest) (under **Assets**), or use the direct link above.
+2. Close vPilot.
+3. Open `%LOCALAPPDATA%\vPilot\Plugins` (paste it into the Explorer address bar or the Run dialog, `Win + R`). Create the `Plugins` folder if it does not exist.
+4. Extract the contents of the zip into that folder. You should end up with:
+   ```
+   %LOCALAPPDATA%\vPilot\Plugins\
+   ├── vPilot.Bliss.dll
+   └── Bliss.lib\
+   ```
+   Keep the `Bliss.lib` folder next to `vPilot.Bliss.dll`; do not extract into an extra subfolder.
+5. Start vPilot. The **Bliss** tab appears in vPilot.
 
 ## Use
 
